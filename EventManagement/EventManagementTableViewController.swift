@@ -176,37 +176,30 @@ class EventManagementTableViewController: UITableViewController {
         override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             
             DayOfWeek = day[indexPath.section]
-            if let cell = tableView.cellForRow(at: indexPath) as? EventManagementTableViewCell{
+            if let cell = tableView.cellForRow(at: indexPath) as? EventManagementTableViewCell {
                 NameOfEvent = cell.Name.text!
                 DescriptionOfEvent = cell.Description.text!
                 // Gan chi tiet su kien vao bien DetailOfEvent
             }
-            if (indexPath.section==0)
-            {
+            if (indexPath.section==0) {
                 DetailOfEvent = Detail_Monday[indexPath.row]
             }
-            if (indexPath.section==1)
-            {
+            if (indexPath.section==1) {
                 DetailOfEvent = Detail_Tuesday[indexPath.row]
             }
-            if (indexPath.section==2)
-            {
+            if (indexPath.section==2) {
                 DetailOfEvent = Detail_Wesderday[indexPath.row]
             }
-            if (indexPath.section==3)
-            {
+            if (indexPath.section==3) {
                 DetailOfEvent = Detail_Thurday[indexPath.row]
             }
-            if (indexPath.section==4)
-            {
+            if (indexPath.section==4) {
                 DetailOfEvent = Detail_Friday[indexPath.row]
             }
-            if (indexPath.section==5)
-            {
+            if (indexPath.section==5) {
                 DetailOfEvent = Detail_Saturday[indexPath.row]
             }
-            if (indexPath.section==6)
-            {
+            if (indexPath.section==6) {
                 DetailOfEvent = Detail_Sunday[indexPath.row]
             }
             performSegue(withIdentifier: "TableView", sender: self)
