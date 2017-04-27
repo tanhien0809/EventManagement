@@ -14,6 +14,8 @@
 		90CE7AB01EB2245F0064275D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CE7AAE1EB2245F0064275D /* LaunchScreen.storyboard */; };
 		90CE7ABB1EB2245F0064275D /* EventManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE7ABA1EB2245F0064275D /* EventManagementTests.swift */; };
 		90CE7AC61EB2245F0064275D /* EventManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE7AC51EB2245F0064275D /* EventManagementUITests.swift */; };
+		90CE7AD41EB229800064275D /* EventManagementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE7AD31EB229800064275D /* EventManagementTableViewController.swift */; };
+		90CE7AD61EB22B210064275D /* EventManagementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE7AD51EB22B210064275D /* EventManagementTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		90CE7AC11EB2245F0064275D /* EventManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CE7AC51EB2245F0064275D /* EventManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagementUITests.swift; sourceTree = "<group>"; };
 		90CE7AC71EB2245F0064275D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CE7AD31EB229800064275D /* EventManagementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventManagementTableViewController.swift; sourceTree = "<group>"; };
+		90CE7AD51EB22B210064275D /* EventManagementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventManagementTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				90CE7AA51EB2245F0064275D /* AppDelegate.swift */,
 				90CE7AA71EB2245F0064275D /* ViewController.swift */,
 				90CE7AA91EB2245F0064275D /* Main.storyboard */,
+				90CE7AD51EB22B210064275D /* EventManagementTableViewCell.swift */,
+				90CE7AD31EB229800064275D /* EventManagementTableViewController.swift */,
 				90CE7AAC1EB2245F0064275D /* Assets.xcassets */,
 				90CE7AAE1EB2245F0064275D /* LaunchScreen.storyboard */,
 				90CE7AB11EB2245F0064275D /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				90CE7AA81EB2245F0064275D /* ViewController.swift in Sources */,
 				90CE7AA61EB2245F0064275D /* AppDelegate.swift in Sources */,
+				90CE7AD41EB229800064275D /* EventManagementTableViewController.swift in Sources */,
+				90CE7AD61EB22B210064275D /* EventManagementTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				90CE7ACC1EB2245F0064275D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90CE7ACD1EB2245F0064275D /* Build configuration list for PBXNativeTarget "EventManagementTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				90CE7ACF1EB2245F0064275D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90CE7AD01EB2245F0064275D /* Build configuration list for PBXNativeTarget "EventManagementUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				90CE7AD21EB2245F0064275D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
